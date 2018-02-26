@@ -8,7 +8,7 @@ namespace HelloWorld2
         {
             InitializeComponent();
 
-            MainPage = new HelloWorld2Page();
+            MainPage = new GreetPage();
         }
 
         protected override void OnStart()

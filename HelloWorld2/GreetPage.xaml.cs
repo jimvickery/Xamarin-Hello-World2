@@ -7,9 +7,17 @@ namespace HelloWorld2
 {
     public partial class GreetPage : ContentPage
     {
+       
+
         public GreetPage()
         {
             InitializeComponent();
         }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            DisplayAlert("Title", "Hello World", "OK");
+        }
+
     }
 }
