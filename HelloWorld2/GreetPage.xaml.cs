@@ -16,7 +16,7 @@ namespace HelloWorld2
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            DisplayAlert("Title", "Hello World", "OK");
+            DisplayAlert("Title", "Testing While Watching TV", "OK");
         }
 
     }
