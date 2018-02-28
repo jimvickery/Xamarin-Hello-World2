@@ -2,16 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="HelloWorld2.GreetPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+            iOS="0, 20, 0, 0"
+            Android="0, 40, 0, 0"/>
+    </ContentPage.Padding>
+
+    
     <StackLayout HorizontalOptions="Center" 
         >    
         <Label  BindingContext="{x:Reference slider}"
-
-            Text="{Binding Value, 
-                    
+            Text="{Binding Value,
                     StringFormat='Value is {0:F2}' }" 
                     Opacity="{Binding Value}"
-                            
-                            x:Name="label" />
+                    x:Name="label" />
         <Slider x:Name="slider"/>
   </StackLayout>
 </ContentPage>
