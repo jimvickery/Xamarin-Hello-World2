@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage 
+    BackgroundColor="#020231"
     Padding="0, 20, 0, 0"
     xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorld2.StackPage">
-    <StackLayout  
-        Orientation="Horizontal"
-        Padding="40"
-        Spacing="20"
-        VerticalOptions="Center"
-        HorizontalOptions="Center"> 
-        <StackLayout> 
-            <Image Source="http://placehold.it/100x100"/>
-            <Label Text = "Label1"/>
-        </StackLayout>
-       <StackLayout> 
-            <Image Source="http://placehold.it/100x100"/>
-            <Label Text = "Label2"/>
-        </StackLayout>
+   <StackLayout VerticalOptions="Center" Spacing="20">
+        <Label 
+            Text="Welcome to SillySnap"
+            TextColor="White"
+            FontSize="30" 
+            FontAttributes="Bold"  
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Making Fun Images Social" 
+            TextColor="White"
+            FontSize="18" 
+            HorizontalOptions="Center" />
+        <Button 
+            Text="Login" 
+            TextColor="White"
+            BackgroundColor="#323299" />
+        <Button 
+            Text="Register" 
+            TextColor="White"
+            BackgroundColor="#323299" />
+    </StackLayout>  
 
-        <StackLayout> 
-            <Image Source="http://placehold.it/100x100"/>
-            <Label Text = "Label3"/>
-        </StackLayout>
-    </StackLayout>
 </ContentPage>
