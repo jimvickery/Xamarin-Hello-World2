@@ -11,7 +11,7 @@
             FontAttributes="Bold"  
             HorizontalOptions="Center" />
         <Label 
-            Text="Making Fun Images Social" 
+            Text="Making Images Fun and Social" 
             TextColor="White"
             FontSize="18" 
             HorizontalOptions="Center" />
