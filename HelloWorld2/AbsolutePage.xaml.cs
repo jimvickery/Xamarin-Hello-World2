@@ -18,8 +18,11 @@ namespace HelloWorld2
             {
                 Color = Color.Aqua
             };
-            layout.Children.Add(aquabox);
-
+            layout.Children.Add(aquabox
+                               , new Rectangle(0, 0, 1, 1)
+                                , AbsoluteLayoutFlags.All);
+                               
+            AbsoluteLayout.SetLayoutBounds(aquabox, new Rectangle(0, 0, 1, 1));
         }
     }
 }
